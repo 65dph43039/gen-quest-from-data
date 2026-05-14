@@ -69,4 +69,5 @@ test('parseCsvQuestions skips vague references, duplicate questions, and multi-t
   assert.equal(parsed.skipped, 4);
   assert.equal(parsed.questions[0].question, 'Câu hỏi cụ thể về phân loại sách là gì?');
   assert.equal(parsed.questions[1].question, 'Câu hỏi hợp lệ mới?');
+  assert.equal(parsed.questions.some((item) => item.question === 'Câu hỏi hợp lệ khác?'), false);
 });
