@@ -1,0 +1,321 @@
+id,question,option_a,option_b,option_c,option_d,correct_option,explanation,topic,difficulty
+1,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+2,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+3,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+4,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+5,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+6,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+7,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+8,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+9,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+10,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+11,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+12,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+13,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+14,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+15,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+16,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+17,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+18,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+19,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+20,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+21,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+22,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+23,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+24,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+25,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+26,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+27,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+28,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+29,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+30,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+31,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+32,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+33,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+34,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+35,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+36,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+37,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+38,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+39,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+40,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+41,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+42,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+43,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+44,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+45,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+46,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+47,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+48,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+49,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+50,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+51,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+52,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+53,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+54,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+55,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+56,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+57,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+58,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+59,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+60,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+61,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+62,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+63,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+64,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+65,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+66,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+67,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+68,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+69,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+70,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+71,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+72,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+73,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+74,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+75,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+76,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+77,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+78,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+79,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+80,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+81,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+82,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+83,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+84,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+85,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+86,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+87,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+88,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+89,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+90,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+91,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+92,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+93,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+94,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+95,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+96,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+97,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+98,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+99,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+100,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+101,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+102,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+103,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+104,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+105,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+106,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+107,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+108,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+109,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+110,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+111,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+112,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+113,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+114,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+115,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+116,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+117,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+118,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+119,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+120,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+121,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+122,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+123,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+124,Phân loại sách là gì?,Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+125,Phân loại sách dựa trên yếu tố nào?,Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+126,Phân loại sách khoa học giúp ích gì?,Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+127,Một hệ quả của việc phân loại sách không khoa học là gì?,Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+128,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+129,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+130,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+131,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+132,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+133,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+134,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+135,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+136,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+137,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+138,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+139,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+140,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+141,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+142,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+143,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+144,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+145,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+146,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+147,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+148,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+149,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+150,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+151,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+152,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+153,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+154,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+155,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+156,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+157,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+158,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+159,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+160,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+161,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+162,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+163,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+164,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+165,Sách chính trị – pháp luật có đặc điểm gì?,Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+166,Đối tượng tiêu dùng chính của sách pháp luật là ai?,Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+167,Một rủi ro khi kinh doanh sách pháp luật là gì?,Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+168,Sách pháp luật cần được cập nhật vì sao?,Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+169,Đặc điểm nổi bật của sách KHKT là gì?,Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+170,Sách KHKT phục vụ mục đích gì?,Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+171,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+172,Một hình thức chuyển đổi số trong xuất bản là gì?,Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+173,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+174,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+175,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+176,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+177,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+178,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+179,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+180,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+181,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+182,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+183,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+184,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+185,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+186,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+187,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+188,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+189,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+190,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+191,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+192,Xuất bản phẩm được xuất bản thông qua đâu?,Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+193,Xuất bản phẩm có thể được thể hiện dưới hình thức nào?,Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+194,Một đặc điểm của mặt hàng xuất bản phẩm là gì?,Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+195,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây?,Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+196,Một yêu cầu khi kinh doanh văn hóa phẩm là gì?,Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+197,Vai trò nổi bật của xuất bản phẩm hiện nay là gì?,Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+198,Đặc điểm nổi bật của sách KHKT là gì? (Mở rộng 198),Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+199,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 199),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+200,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 200),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+201,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 201),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+202,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 202),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+203,Sách KHKT phục vụ mục đích gì? (Mở rộng 203),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+204,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 204),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+205,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 205),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+206,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 206),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+207,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 207),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+208,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 208),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+209,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 209),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+210,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 210),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+211,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 211),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+212,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 212),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+213,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 213),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+214,Phân loại sách dựa trên yếu tố nào? (Mở rộng 214),Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+215,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 215),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+216,Phân loại sách khoa học giúp ích gì? (Mở rộng 216),Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+217,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 217),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+218,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 218),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+219,Phân loại sách là gì? (Mở rộng 219),Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+220,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 220),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+221,Một yêu cầu khi kinh doanh văn hóa phẩm là gì? (Mở rộng 221),Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+222,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 222),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+223,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 223),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+224,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 224),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+225,Sách KHKT phục vụ mục đích gì? (Mở rộng 225),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+226,Phân loại sách dựa trên yếu tố nào? (Mở rộng 226),Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+227,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 227),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+228,Đặc điểm nổi bật của sách KHKT là gì? (Mở rộng 228),Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+229,Sách chính trị – pháp luật có đặc điểm gì? (Mở rộng 229),Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+230,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 230),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+231,Đặc điểm nổi bật của sách KHKT là gì? (Mở rộng 231),Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+232,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 232),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+233,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 233),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+234,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 234),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+235,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 235),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+236,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 236),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+237,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 237),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+238,Sách KHKT phục vụ mục đích gì? (Mở rộng 238),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+239,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 239),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+240,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 240),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+241,Sách KHKT phục vụ mục đích gì? (Mở rộng 241),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+242,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 242),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+243,Phân loại sách khoa học giúp ích gì? (Mở rộng 243),Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+244,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây? (Mở rộng 244),Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+245,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 245),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+246,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 246),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+247,Sách KHKT phục vụ mục đích gì? (Mở rộng 247),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+248,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 248),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+249,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 249),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+250,Phân loại sách dựa trên yếu tố nào? (Mở rộng 250),Nội dung tri thức,Đối tượng sử dụng,Mục đích sử dụng,Tất cả các đáp án trên,D,,MHXBP,1
+251,Sách KHKT phục vụ mục đích gì? (Mở rộng 251),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+252,Sách KHKT phục vụ mục đích gì? (Mở rộng 252),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+253,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 253),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+254,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 254),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+255,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 255),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+256,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 256),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+257,Phân loại sách là gì? (Mở rộng 257),Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+258,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 258),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+259,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 259),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+260,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 260),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+261,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 261),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+262,Đặc điểm nổi bật của sách KHKT là gì? (Mở rộng 262),Tính chuyên sâu,Độ chính xác cao,Tính ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+263,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 263),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+264,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 264),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+265,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 265),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+266,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 266),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+267,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 267),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+268,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 268),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+269,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 269),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+270,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 270),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+271,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 271),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+272,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 272),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+273,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 273),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+274,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 274),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+275,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây? (Mở rộng 275),Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+276,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 276),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+277,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 277),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+278,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 278),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+279,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 279),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+280,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 280),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+281,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 281),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+282,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 282),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+283,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 283),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+284,Sách KHKT phục vụ mục đích gì? (Mở rộng 284),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+285,Sách chính trị – pháp luật có đặc điểm gì? (Mở rộng 285),Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+286,Phân loại sách là gì? (Mở rộng 286),Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+287,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 287),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+288,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 288),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+289,Một rủi ro khi kinh doanh sách pháp luật là gì? (Mở rộng 289),Nội dung nhanh lỗi thời,Rủi ro pháp lý,Khó bán đại trà,Tất cả các đáp án trên,D,,MHXBP,1
+290,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 290),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+291,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 291),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+292,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 292),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+293,Một yêu cầu khi kinh doanh văn hóa phẩm là gì? (Mở rộng 293),Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+294,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 294),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+295,Vai trò nổi bật của xuất bản phẩm hiện nay là gì? (Mở rộng 295),Nâng cao dân trí,Bảo tồn văn hóa,Thúc đẩy giao lưu quốc tế,Tất cả các đáp án trên,D,,MHXBP,1
+296,Một yêu cầu khi kinh doanh văn hóa phẩm là gì? (Mở rộng 296),Đảm bảo tính thẩm mỹ,Phân khu rõ ràng,Đảm bảo chất lượng,Tất cả các đáp án trên,D,,MHXBP,1
+297,Mặt hàng văn hóa phẩm bao gồm nhóm nào sau đây? (Mở rộng 297),Lịch,Tranh ảnh,Thủ công mỹ nghệ,Tất cả các đáp án trên,D,,MHXBP,1
+298,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 298),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+299,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 299),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+300,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 300),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+301,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 301),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+302,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 302),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+303,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 303),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+304,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 304),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+305,Phân loại sách là gì? (Mở rộng 305),Sắp xếp sách có hệ thống,Định giá sách,In sách,Quảng cáo sách,A,,MHXBP,1
+306,Phân loại sách khoa học giúp ích gì? (Mở rộng 306),Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
+307,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 307),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+308,Xuất bản phẩm được xuất bản thông qua đâu? (Mở rộng 308),Nhà xuất bản hoặc cơ quan được cấp phép,Cửa hàng văn phòng phẩm,Doanh nghiệp vận tải,Kho lưu trữ,A,,MHXBP,1
+309,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 309),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+310,Sách chính trị – pháp luật có đặc điểm gì? (Mở rộng 310),Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+311,Đối tượng tiêu dùng chính của sách pháp luật là ai? (Mở rộng 311),Sinh viên luật,Cán bộ công chức,Người nghiên cứu,Tất cả các đáp án trên,D,,MHXBP,1
+312,Một hình thức chuyển đổi số trong xuất bản là gì? (Mở rộng 312),Ebook,Audiobook,Bán hàng online,Tất cả các đáp án trên,D,,MHXBP,1
+313,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 313),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+314,Sách pháp luật cần được cập nhật vì sao? (Mở rộng 314),Luật thường xuyên thay đổi,Tăng tính chính xác,Phù hợp thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+315,Sách chính trị – pháp luật có đặc điểm gì? (Mở rộng 315),Tính chính trị – pháp lý cao,Độ chính xác cao,Tính cập nhật mạnh,Tất cả các đáp án trên,D,,MHXBP,1
+316,Sách KHKT phục vụ mục đích gì? (Mở rộng 316),Học tập,Nghiên cứu,Ứng dụng thực tiễn,Tất cả các đáp án trên,D,,MHXBP,1
+317,Xuất bản phẩm có thể được thể hiện dưới hình thức nào? (Mở rộng 317),Sách in,Sách chữ nổi,Bản ghi âm ghi hình,Tất cả các đáp án trên,D,,MHXBP,1
+318,Một đặc điểm của mặt hàng xuất bản phẩm là gì? (Mở rộng 318),Mang giá trị văn hóa,Mang giá trị kinh tế,Mang giá trị giáo dục,Tất cả các đáp án trên,D,,MHXBP,1
+319,Một hệ quả của việc phân loại sách không khoa học là gì? (Mở rộng 319),Khách khó tìm sách,Giảm hiệu quả bán hàng,Khó kiểm kê,Tất cả các đáp án trên,D,,MHXBP,1
+320,Phân loại sách khoa học giúp ích gì? (Mở rộng 320),Dễ tìm kiếm sách,Quản lý kho hiệu quả,Kiểm kê nhanh chóng,Tất cả các đáp án trên,D,,MHXBP,1
