@@ -17,6 +17,7 @@ const EMPTY_DRAFT = {
 };
 const ALL_TOPICS_LABEL = 'Tất cả chủ đề';
 const ALL_TOPICS_VALUE = '';
+const DEFAULT_GENERAL_SET = 'General';
 
 function AdminPage() {
   const [questions, setQuestions] = useState([]);
@@ -304,7 +305,7 @@ function QuizPage() {
   }
 
   function getAttemptSetDisplayName(attemptSetName) {
-    if (!attemptSetName || attemptSetName === 'General' || attemptSetName === ALL_TOPICS_LABEL) {
+    if (!attemptSetName || attemptSetName === DEFAULT_GENERAL_SET || attemptSetName === ALL_TOPICS_LABEL) {
       return ALL_TOPICS_LABEL;
     }
     return attemptSetName;

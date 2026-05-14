@@ -46,6 +46,7 @@ Các cột khuyến nghị:
 ### Quy ước dữ liệu trong `data.csv`
 
 - Mã hóa: UTF-8
+- `data.csv` đang dùng cột `topic` và **không bắt buộc** cột `set_name`; backend sẽ tự suy ra `set_name` từ `topic` khi import.
 - `difficulty`:
   - `1`: dễ
   - `2`: trung bình
