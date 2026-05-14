@@ -1,0 +1,58 @@
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
+
+async function request(path, options = {}) {
+  const response = await fetch(`${API_BASE_URL}${path}`, {
+    headers: {
+      'Content-Type': 'application/json',
+      ...(options.headers || {}),
+    },
+    ...options,
+  });
+
+  if (!response.ok) {
+    const payload = await response.json().catch(() => ({}));
+    throw new Error(payload.error || 'Request failed');
+  }
+
+  if (response.status === 204) {
+    return null;
+  }
+
+  return response.json();
+}
+
+export const api = {
+  getQuestions: (filters = {}) => {
+    const query = new URLSearchParams(filters);
+    return request(`/questions${query.toString() ? `?${query.toString()}` : ''}`);
+  },
+  importCsv: (csvText) =>
+    request('/questions/import-csv', {
+      method: 'POST',
+      body: JSON.stringify({ csvText }),
+    }),
+  updateQuestion: (id, payload) =>
+    request(`/questions/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(payload),
+    }),
+  deleteQuestion: (id) =>
+    request(`/questions/${id}`, {
+      method: 'DELETE',
+    }),
+  getSets: () => request('/sets'),
+  createQuiz: (payload) =>
+    request('/quiz', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    }),
+  submitAttempt: (payload) =>
+    request('/attempts', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    }),
+  getAttempts: (userId) => {
+    const query = userId ? `?${new URLSearchParams({ userId }).toString()}` : '';
+    return request(`/attempts${query}`);
+  },
+};
