@@ -241,7 +241,6 @@ function QuizPage() {
     api.getSets()
       .then((payload) => {
         setSets(payload.sets);
-        setSelectedSet((current) => current || payload.sets[0]?.name || '');
       })
       .catch((error) => setStatus(error.message));
   }, []);
@@ -273,7 +272,7 @@ function QuizPage() {
     try {
       const result = await api.submitAttempt({
         userId,
-        setName: selectedSet,
+        setName: selectedSet || 'Tất cả chủ đề',
         questionIds: quizQuestions.map((question) => question.id),
         answers: quizQuestions.map((question) => ({
           questionId: question.id,
@@ -305,7 +304,7 @@ function QuizPage() {
   return (
     <section className="page">
       <h2>Trang làm bài</h2>
-      <p>Chọn bộ đề, số câu hỏi, làm bài trắc nghiệm và nộp bài để chấm điểm.</p>
+      <p>Chọn chủ đề (hoặc tất cả chủ đề), số câu hỏi, làm bài trắc nghiệm và nộp bài để chấm điểm.</p>
 
       <div className="panel quiz-config">
         <label>
@@ -313,8 +312,9 @@ function QuizPage() {
           <input value={userId} onChange={(event) => setUserId(event.target.value)} placeholder="guest" />
         </label>
         <label>
-          Bộ đề
+          Chủ đề
           <select value={selectedSet} onChange={(event) => setSelectedSet(event.target.value)}>
+            <option value="">Tất cả chủ đề</option>
             {sets.map((setItem) => (
               <option key={setItem.name} value={setItem.name}>{setItem.name} ({setItem.count})</option>
             ))}

@@ -9,7 +9,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
   - Quản lý câu hỏi: xem, chỉnh sửa, xóa
   - Lọc câu hỏi theo `topic` và `difficulty`
 - **Làm bài**
-  - Chọn bộ đề (`setName`), nhập số lượng câu hỏi
+  - Chọn bộ đề (`setName`) hoặc tất cả chủ đề, nhập số lượng câu hỏi
   - Tạo đề ngẫu nhiên từ ngân hàng
   - Đáp án được trộn ngẫu nhiên mỗi lần tạo đề
   - Nộp bài để chấm điểm tự động
