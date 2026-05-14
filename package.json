@@ -1,0 +1,19 @@
+{
+  "name": "gen-quest-from-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run start\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix backend run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "private": true
+}
