@@ -9,7 +9,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
   - Quản lý câu hỏi: xem, chỉnh sửa, xóa
   - Lọc câu hỏi theo `topic` và `difficulty`
 - **Làm bài**
-  - Chọn bộ đề (`setName`), nhập số lượng câu hỏi
+  - Chọn bộ đề (`setName`) hoặc tất cả chủ đề, nhập số lượng câu hỏi
   - Tạo đề ngẫu nhiên từ ngân hàng
   - Đáp án được trộn ngẫu nhiên mỗi lần tạo đề
   - Nộp bài để chấm điểm tự động
@@ -22,6 +22,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
 - `/frontend`: React + Vite UI (Admin, Làm bài, Kết quả)
 - `/backend`: Express API + lưu trữ JSON (`backend/data/db.json`)
 - `/question_bank_template.csv`: template CSV đầu vào
+- `/data.csv`: bộ câu hỏi MHXBP mẫu để import nhanh
 
 ## CSV format (hỗ trợ)
 
@@ -41,6 +42,15 @@ Các cột khuyến nghị:
 - `topic`
 - `difficulty`
 - `set_name` (nếu không có, backend tự lấy từ `topic`)
+
+### Quy ước dữ liệu trong `data.csv`
+
+- Mã hóa: UTF-8
+- `data.csv` đang dùng cột `topic` và **không bắt buộc** cột `set_name`; backend sẽ tự suy ra `set_name` từ `topic` khi import.
+- `difficulty`:
+  - `1`: dễ
+  - `2`: trung bình
+  - `3`: khó
 
 ## Chạy dự án
 
