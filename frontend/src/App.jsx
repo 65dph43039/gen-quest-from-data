@@ -303,6 +303,13 @@ function QuizPage() {
     }
   }
 
+  function getAttemptSetDisplayName(attemptSetName) {
+    if (!attemptSetName || attemptSetName === 'General' || attemptSetName === ALL_TOPICS_LABEL) {
+      return ALL_TOPICS_LABEL;
+    }
+    return attemptSetName;
+  }
+
   return (
     <section className="page">
       <h2>Trang làm bài</h2>
@@ -365,7 +372,7 @@ function QuizPage() {
         <ul>
           {history.map((attempt) => (
             <li key={attempt.id}>
-              #{attempt.id} • {attempt.userId} • {!attempt.setName || attempt.setName === 'General' || attempt.setName === ALL_TOPICS_LABEL ? ALL_TOPICS_LABEL : attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
+              #{attempt.id} • {attempt.userId} • {getAttemptSetDisplayName(attempt.setName)} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
             </li>
           ))}
         </ul>
