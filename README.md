@@ -22,6 +22,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
 - `/frontend`: React + Vite UI (Admin, Làm bài, Kết quả)
 - `/backend`: Express API + lưu trữ JSON (`backend/data/db.json`)
 - `/question_bank_template.csv`: template CSV đầu vào
+- `/data.csv`: bộ câu hỏi MHXBP mẫu để import nhanh
 
 ## CSV format (hỗ trợ)
 
@@ -41,6 +42,14 @@ Các cột khuyến nghị:
 - `topic`
 - `difficulty`
 - `set_name` (nếu không có, backend tự lấy từ `topic`)
+
+### Quy ước dữ liệu trong `data.csv`
+
+- Mã hóa: UTF-8
+- `difficulty`:
+  - `1`: dễ
+  - `2`: trung bình
+  - `3`: khó
 
 ## Chạy dự án
 
