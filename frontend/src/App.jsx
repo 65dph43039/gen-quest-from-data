@@ -15,6 +15,7 @@ const EMPTY_DRAFT = {
   difficulty: '1',
   set_name: 'General',
 };
+const ALL_TOPICS_LABEL = 'Tất cả chủ đề';
 
 function AdminPage() {
   const [questions, setQuestions] = useState([]);
@@ -272,7 +273,7 @@ function QuizPage() {
     try {
       const result = await api.submitAttempt({
         userId,
-        setName: selectedSet || 'Tất cả chủ đề',
+        setName: selectedSet || ALL_TOPICS_LABEL,
         questionIds: quizQuestions.map((question) => question.id),
         answers: quizQuestions.map((question) => ({
           questionId: question.id,
@@ -314,7 +315,7 @@ function QuizPage() {
         <label>
           Chủ đề
           <select value={selectedSet} onChange={(event) => setSelectedSet(event.target.value)}>
-            <option value="">Tất cả chủ đề</option>
+            <option value="">{ALL_TOPICS_LABEL}</option>
             {sets.map((setItem) => (
               <option key={setItem.name} value={setItem.name}>{setItem.name} ({setItem.count})</option>
             ))}
