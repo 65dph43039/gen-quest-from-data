@@ -273,7 +273,7 @@ function QuizPage() {
     try {
       const result = await api.submitAttempt({
         userId,
-        setName: selectedSet || ALL_TOPICS_LABEL,
+        setName: selectedSet || undefined,
         questionIds: quizQuestions.map((question) => question.id),
         answers: quizQuestions.map((question) => ({
           questionId: question.id,
@@ -364,7 +364,7 @@ function QuizPage() {
         <ul>
           {history.map((attempt) => (
             <li key={attempt.id}>
-              #{attempt.id} • {attempt.userId} • {attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
+              #{attempt.id} • {attempt.userId} • {attempt.setName === 'General' ? ALL_TOPICS_LABEL : attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
             </li>
           ))}
         </ul>
