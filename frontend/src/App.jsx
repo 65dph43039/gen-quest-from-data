@@ -305,10 +305,11 @@ function QuizPage() {
   }
 
   function getAttemptSetDisplayName(attemptSetName) {
-    if (!attemptSetName || attemptSetName === DEFAULT_GENERAL_SET || attemptSetName === ALL_TOPICS_LABEL) {
+    const normalizedSetName = (attemptSetName ?? '').trim();
+    if (!normalizedSetName || normalizedSetName === DEFAULT_GENERAL_SET || normalizedSetName === ALL_TOPICS_LABEL) {
       return ALL_TOPICS_LABEL;
     }
-    return attemptSetName;
+    return normalizedSetName;
   }
 
   return (
