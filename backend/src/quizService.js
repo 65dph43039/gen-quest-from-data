@@ -11,7 +11,7 @@ const REQUIRED_HEADERS = [
 
 const TOPIC_SEPARATOR_PATTERN = /[,;|/\\]/;
 const NUMBERED_SOURCE_REFERENCE_PATTERN =
-  /(?:\btheo\b|\btrong phần trả lời\b|\bnội dung\b).{0,30}\bcâu\s*\d+\b/i;
+  /(?:\btheo\b|\btrong phần trả lời\b|\bnội dung\b)[\s\S]*\bcâu\s*\d+\b/i;
 
 function normalizeRow(row) {
   return Object.entries(row).reduce((acc, [key, value]) => {
