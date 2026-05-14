@@ -9,8 +9,8 @@ const REQUIRED_HEADERS = [
   'correct_option',
 ];
 
-const MULTI_TOPIC_PATTERN = /[,;|/\\]/;
-const VAGUE_REFERENCE_PATTERN =
+const TOPIC_SEPARATOR_PATTERN = /[,;|/\\]/;
+const NUMBERED_SOURCE_REFERENCE_PATTERN =
   /(?:\btheo\b|\btrong phần trả lời\b|\bnội dung\b).{0,30}\bcâu\s*\d+\b/i;
 
 function normalizeRow(row) {
@@ -24,7 +24,7 @@ function validateHeaders(headers) {
   return REQUIRED_HEADERS.every((header) => headers.includes(header));
 }
 
-function normalizeQuestionForDedup(question) {
+function normalizeQuestionForDeduplication(question) {
   return String(question || '')
     .trim()
     .toLowerCase()
@@ -32,11 +32,11 @@ function normalizeQuestionForDedup(question) {
 }
 
 function isVagueQuestionReference(question) {
-  return VAGUE_REFERENCE_PATTERN.test(String(question || '').trim());
+  return NUMBERED_SOURCE_REFERENCE_PATTERN.test(String(question || '').trim());
 }
 
 function hasSingleTopic(topic) {
-  return !MULTI_TOPIC_PATTERN.test(String(topic || '').trim());
+  return !TOPIC_SEPARATOR_PATTERN.test(String(topic || '').trim());
 }
 
 function parseCsvQuestions(csvText, currentLastQuestionId, existingQuestions = []) {
@@ -59,7 +59,9 @@ function parseCsvQuestions(csvText, currentLastQuestionId, existingQuestions = [
   const questions = [];
   let nextQuestionId = currentLastQuestionId;
   let skipped = 0;
-  const seenQuestions = new Set(existingQuestions.map((question) => normalizeQuestionForDedup(question.question)));
+  const seenQuestions = new Set(
+    existingQuestions.map((question) => normalizeQuestionForDeduplication(question.question)),
+  );
 
   for (const row of normalizedRows) {
     const questionText = String(row.question || '').trim();
@@ -71,7 +73,7 @@ function parseCsvQuestions(csvText, currentLastQuestionId, existingQuestions = [
       C: row.option_c,
       D: row.option_d,
     };
-    const questionKey = normalizeQuestionForDedup(questionText);
+    const questionKey = normalizeQuestionForDeduplication(questionText);
 
     if (
       !questionText ||
