@@ -9,6 +9,10 @@ const REQUIRED_HEADERS = [
   'correct_option',
 ];
 
+const MULTI_TOPIC_PATTERN = /[,;|/\\]/;
+const VAGUE_REFERENCE_PATTERN =
+  /(?:\btheo\b|\btrong phần trả lời\b|\bnội dung\b).{0,30}\bcâu\s*\d+\b/i;
+
 function normalizeRow(row) {
   return Object.entries(row).reduce((acc, [key, value]) => {
     acc[String(key).trim().toLowerCase()] = typeof value === 'string' ? value.trim() : value;
@@ -20,7 +24,22 @@ function validateHeaders(headers) {
   return REQUIRED_HEADERS.every((header) => headers.includes(header));
 }
 
-function parseCsvQuestions(csvText, currentLastQuestionId) {
+function normalizeQuestionForDedup(question) {
+  return String(question || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
+}
+
+function isVagueQuestionReference(question) {
+  return VAGUE_REFERENCE_PATTERN.test(String(question || '').trim());
+}
+
+function hasSingleTopic(topic) {
+  return !MULTI_TOPIC_PATTERN.test(String(topic || '').trim());
+}
+
+function parseCsvQuestions(csvText, currentLastQuestionId, existingQuestions = []) {
   const parsed = Papa.parse(csvText, {
     header: true,
     skipEmptyLines: true,
@@ -40,8 +59,11 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
   const questions = [];
   let nextQuestionId = currentLastQuestionId;
   let skipped = 0;
+  const seenQuestions = new Set(existingQuestions.map((question) => normalizeQuestionForDedup(question.question)));
 
   for (const row of normalizedRows) {
+    const questionText = String(row.question || '').trim();
+    const topic = String(row.topic || 'General').trim() || 'General';
     const correctOption = String(row.correct_option || '').toUpperCase();
     const options = {
       A: row.option_a,
@@ -49,8 +71,16 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
       C: row.option_c,
       D: row.option_d,
     };
+    const questionKey = normalizeQuestionForDedup(questionText);
 
-    if (!row.question || !['A', 'B', 'C', 'D'].includes(correctOption) || !Object.values(options).every(Boolean)) {
+    if (
+      !questionText ||
+      !['A', 'B', 'C', 'D'].includes(correctOption) ||
+      !Object.values(options).every(Boolean) ||
+      isVagueQuestionReference(questionText) ||
+      !hasSingleTopic(topic) ||
+      seenQuestions.has(questionKey)
+    ) {
       skipped += 1;
       continue;
     }
@@ -61,14 +91,15 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
 
     questions.push({
       id,
-      question: row.question,
+      question: questionText,
       options,
       correctOption,
       explanation: row.explanation || '',
-      topic: row.topic || 'General',
+      topic,
       difficulty: row.difficulty || '1',
-      setName: row.set_name || row.topic || 'General',
+      setName: row.set_name || topic,
     });
+    seenQuestions.add(questionKey);
   }
 
   return {

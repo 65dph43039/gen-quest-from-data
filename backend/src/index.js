@@ -59,7 +59,7 @@ app.post('/api/questions/import-csv', (req, res) => {
 
   try {
     const db = readDb();
-    const parsed = parseCsvQuestions(csvText, db.lastQuestionId);
+    const parsed = parseCsvQuestions(csvText, db.lastQuestionId, db.questions);
 
     const questionsById = new Map(db.questions.map((question) => [question.id, question]));
     for (const question of parsed.questions) {
