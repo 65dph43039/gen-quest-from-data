@@ -16,6 +16,7 @@ const EMPTY_DRAFT = {
   set_name: 'General',
 };
 const ALL_TOPICS_LABEL = 'Tất cả chủ đề';
+const ALL_TOPICS_VALUE = '';
 
 function AdminPage() {
   const [questions, setQuestions] = useState([]);
@@ -249,7 +250,7 @@ function QuizPage() {
   async function startQuiz() {
     try {
       const payload = await api.createQuiz({
-        setName: selectedSet || undefined,
+        setName: selectedSet === ALL_TOPICS_VALUE ? undefined : selectedSet,
         questionCount,
       });
       setQuizQuestions(payload.questions);
@@ -273,7 +274,7 @@ function QuizPage() {
     try {
       const result = await api.submitAttempt({
         userId,
-        setName: selectedSet || undefined,
+        setName: selectedSet === ALL_TOPICS_VALUE ? undefined : selectedSet,
         questionIds: quizQuestions.map((question) => question.id),
         answers: quizQuestions.map((question) => ({
           questionId: question.id,
@@ -315,7 +316,7 @@ function QuizPage() {
         <label>
           Chủ đề
           <select value={selectedSet} onChange={(event) => setSelectedSet(event.target.value)}>
-            <option value="">{ALL_TOPICS_LABEL}</option>
+            <option value={ALL_TOPICS_VALUE}>{ALL_TOPICS_LABEL}</option>
             {sets.map((setItem) => (
               <option key={setItem.name} value={setItem.name}>{setItem.name} ({setItem.count})</option>
             ))}
@@ -364,7 +365,7 @@ function QuizPage() {
         <ul>
           {history.map((attempt) => (
             <li key={attempt.id}>
-              #{attempt.id} • {attempt.userId} • {attempt.setName === 'General' ? ALL_TOPICS_LABEL : attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
+              #{attempt.id} • {attempt.userId} • {!attempt.setName || attempt.setName === 'General' || attempt.setName === ALL_TOPICS_LABEL ? ALL_TOPICS_LABEL : attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
             </li>
           ))}
         </ul>
