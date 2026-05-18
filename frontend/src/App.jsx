@@ -16,6 +16,9 @@ const EMPTY_DRAFT = {
   difficulty: '1',
   set_name: 'General',
 };
+const ALL_TOPICS_LABEL = 'Tất cả chủ đề';
+const ALL_TOPICS_VALUE = '';
+const DEFAULT_GENERAL_SET = 'General';
 
 function AdminPage() {
   const [questions, setQuestions] = useState([]);
@@ -142,6 +145,22 @@ function AdminPage() {
     }
   }
 
+  async function handleResetDatabase() {
+    if (!window.confirm('Xóa toàn bộ database hiện tại? Hành động này không thể hoàn tác.')) {
+      return;
+    }
+
+    try {
+      await api.resetDatabase();
+      setDrafts({});
+      setSelectedFile(null);
+      setStatus('Đã xóa toàn bộ database. Bạn có thể import CSV mới.');
+      await loadQuestions();
+    } catch (error) {
+      setStatus(error.message);
+    }
+  }
+
   return (
     <section className="page">
       <h2>Trang quản trị</h2>
@@ -150,6 +169,7 @@ function AdminPage() {
       <div className="panel upload-panel">
         <input type="file" accept=".csv,text/csv" onChange={(event) => setSelectedFile(event.target.files?.[0] || null)} />
         <button type="button" onClick={handleImport}>Import CSV</button>
+        <button type="button" className="danger" onClick={handleResetDatabase}>Xóa database</button>
       </div>
 
       <div className="panel filters">
@@ -245,7 +265,6 @@ function QuizPage() {
     api.getSets()
       .then((payload) => {
         setSets(payload.sets);
-        setSelectedSet((current) => current || payload.sets[0]?.name || '');
       })
       .catch((error) => setStatus(error.message));
   }, []);
@@ -253,7 +272,7 @@ function QuizPage() {
   async function startQuiz() {
     try {
       const payload = await api.createQuiz({
-        setName: selectedSet || undefined,
+        setName: selectedSet === ALL_TOPICS_VALUE ? undefined : selectedSet,
         questionCount,
       });
       setQuizQuestions(payload.questions);
@@ -277,7 +296,7 @@ function QuizPage() {
     try {
       const result = await api.submitAttempt({
         userId,
-        setName: selectedSet,
+        setName: selectedSet === ALL_TOPICS_VALUE ? undefined : selectedSet,
         questionIds: quizQuestions.map((question) => question.id),
         answers: quizQuestions.map((question) => ({
           questionId: question.id,
@@ -306,10 +325,18 @@ function QuizPage() {
     }
   }
 
+  function getAttemptSetDisplayName(attemptSetName) {
+    const normalizedSetName = (attemptSetName ?? '').trim();
+    if (!normalizedSetName || normalizedSetName === DEFAULT_GENERAL_SET || normalizedSetName === ALL_TOPICS_LABEL) {
+      return ALL_TOPICS_LABEL;
+    }
+    return normalizedSetName;
+  }
+
   return (
     <section className="page">
       <h2>Trang làm bài</h2>
-      <p>Chọn bộ đề, số câu hỏi, làm bài trắc nghiệm và nộp bài để chấm điểm.</p>
+      <p>Chọn chủ đề (hoặc tất cả chủ đề), số câu hỏi, làm bài trắc nghiệm và nộp bài để chấm điểm.</p>
 
       <div className="panel quiz-config">
         <label>
@@ -317,8 +344,9 @@ function QuizPage() {
           <input value={userId} onChange={(event) => setUserId(event.target.value)} placeholder="guest" />
         </label>
         <label>
-          Bộ đề
+          Chủ đề
           <select value={selectedSet} onChange={(event) => setSelectedSet(event.target.value)}>
+            <option value={ALL_TOPICS_VALUE}>{ALL_TOPICS_LABEL}</option>
             {sets.map((setItem) => (
               <option key={setItem.name} value={setItem.name}>{setItem.name} ({setItem.count})</option>
             ))}
@@ -367,7 +395,7 @@ function QuizPage() {
         <ul>
           {history.map((attempt) => (
             <li key={attempt.id}>
-              #{attempt.id} • {attempt.userId} • {attempt.setName} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
+              #{attempt.id} • {attempt.userId} • {getAttemptSetDisplayName(attempt.setName)} • {attempt.score}% ({attempt.correctCount}/{attempt.total}) • {new Date(attempt.createdAt).toLocaleString()}
             </li>
           ))}
         </ul>
