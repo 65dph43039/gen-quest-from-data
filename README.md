@@ -13,6 +13,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
   - Tạo đề ngẫu nhiên từ ngân hàng
   - Đáp án được trộn ngẫu nhiên mỗi lần tạo đề
   - Nộp bài để chấm điểm tự động
+  - Sau khi nộp: hiển thị lại toàn bộ phương án, tô xanh đáp án đúng và tô đỏ đáp án chọn sai
 - **Kết quả & lịch sử**
   - Hiển thị đúng/sai, đáp án đúng, giải thích (nếu có)
   - Lưu lịch sử làm bài theo `userId`
@@ -30,9 +31,13 @@ Các cột bắt buộc:
 - `question`
 - `option_a`
 - `option_b`
+- `correct_option` (`A/B/C/D/E`)
+
+Các cột lựa chọn:
+
 - `option_c`
 - `option_d`
-- `correct_option` (`A/B/C/D`)
+- `option_e`
 
 Các cột khuyến nghị:
 
@@ -68,6 +73,11 @@ npm run lint
 npm run test
 npm run build
 ```
+
+## Deploy GitHub Pages
+
+- Frontend đã cấu hình để chạy trên project page `/gen-quest-from-data/`.
+- Thêm workflow `.github/workflows/deploy-pages.yml` để build và deploy tự động từ nhánh `main`.
 
 ## API chính (backend)
 

@@ -54,7 +54,7 @@ body {
   align-items: flex-end;
 }
 
-label {
+.panel > label {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -131,6 +131,24 @@ td select {
   gap: 8px;
 }
 
+.option-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.option-label input {
+  margin-top: 2px;
+}
+
+.option-label:hover {
+  background: #f9fafb;
+}
+
 .meta {
   color: #6b7280;
   margin-bottom: 8px;
@@ -142,6 +160,31 @@ td select {
 
 .result-list li.wrong {
   border-color: #ef4444;
+}
+
+.result-options {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.result-option {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 8px 10px;
+  background: #f9fafb;
+}
+
+.result-option.correct {
+  border-color: #22c55e;
+  background: #dcfce7;
+}
+
+.result-option.wrong {
+  border-color: #ef4444;
+  background: #fee2e2;
 }
 
 .history ul {

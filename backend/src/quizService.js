@@ -1,13 +1,7 @@
 const Papa = require('papaparse');
 
-const REQUIRED_HEADERS = [
-  'question',
-  'option_a',
-  'option_b',
-  'option_c',
-  'option_d',
-  'correct_option',
-];
+const OPTION_KEYS = ['A', 'B', 'C', 'D', 'E'];
+const REQUIRED_HEADERS = ['question', 'option_a', 'option_b', 'correct_option'];
 
 function normalizeRow(row) {
   return Object.entries(row).reduce((acc, [key, value]) => {
@@ -18,6 +12,16 @@ function normalizeRow(row) {
 
 function validateHeaders(headers) {
   return REQUIRED_HEADERS.every((header) => headers.includes(header));
+}
+
+function extractOptions(row) {
+  return OPTION_KEYS.reduce((options, optionKey) => {
+    const value = row[`option_${optionKey.toLowerCase()}`];
+    if (value) {
+      options[optionKey] = value;
+    }
+    return options;
+  }, {});
 }
 
 function parseCsvQuestions(csvText, currentLastQuestionId) {
@@ -42,15 +46,15 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
   let skipped = 0;
 
   for (const row of normalizedRows) {
-    const correctOption = String(row.correct_option || '').toUpperCase();
-    const options = {
-      A: row.option_a,
-      B: row.option_b,
-      C: row.option_c,
-      D: row.option_d,
-    };
+    const correctOption = String(row.correct_option || '').replace('*', '').toUpperCase();
+    const options = extractOptions(row);
 
-    if (!row.question || !['A', 'B', 'C', 'D'].includes(correctOption) || !Object.values(options).every(Boolean)) {
+    if (
+      !row.question
+      || !OPTION_KEYS.includes(correctOption)
+      || !options[correctOption]
+      || Object.keys(options).length < 2
+    ) {
       skipped += 1;
       continue;
     }
@@ -121,6 +125,9 @@ function scoreAttempt(questions, answers = []) {
     return {
       questionId: question.id,
       question: question.question,
+      options: Object.entries(question.options)
+        .sort(([left], [right]) => left.localeCompare(right))
+        .map(([key, text]) => ({ key, text })),
       selectedOption,
       correctOption: question.correctOption,
       explanation: question.explanation,

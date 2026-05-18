@@ -5,6 +5,7 @@ const { parseCsvQuestions, buildQuiz, scoreAttempt } = require('./quizService');
 
 const app = express();
 const PORT = Number(process.env.PORT) || 4000;
+const OPTION_KEYS = ['A', 'B', 'C', 'D', 'E'];
 
 app.use(cors());
 app.use(express.json({ limit: '2mb' }));
@@ -98,20 +99,26 @@ app.put('/api/questions/:id', (req, res) => {
   const updated = {
     ...current,
     question: payload.question ?? current.question,
-    options: {
-      A: payload.option_a ?? current.options.A,
-      B: payload.option_b ?? current.options.B,
-      C: payload.option_c ?? current.options.C,
-      D: payload.option_d ?? current.options.D,
-    },
-    correctOption: String(payload.correct_option || current.correctOption).toUpperCase(),
+    options: OPTION_KEYS.reduce((options, key) => {
+      const incoming = payload[`option_${key.toLowerCase()}`];
+      const value = incoming !== undefined ? String(incoming).trim() : current.options[key];
+      if (value) {
+        options[key] = value;
+      }
+      return options;
+    }, {}),
+    correctOption: String(payload.correct_option || current.correctOption).replace('*', '').toUpperCase(),
     explanation: payload.explanation ?? current.explanation,
     topic: payload.topic ?? current.topic,
     difficulty: payload.difficulty ?? current.difficulty,
     setName: payload.set_name ?? current.setName,
   };
 
-  if (!['A', 'B', 'C', 'D'].includes(updated.correctOption) || !Object.values(updated.options).every(Boolean)) {
+  if (
+    !OPTION_KEYS.includes(updated.correctOption)
+    || !updated.options[updated.correctOption]
+    || Object.keys(updated.options).length < 2
+  ) {
     return res.status(400).json({ error: 'Question data is invalid' });
   }
 
