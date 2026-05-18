@@ -25,6 +25,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
 - `/backend`: Express API + lưu trữ JSON (`backend/data/db.json`)
 - `/question_bank_template.csv`: template CSV đầu vào
 - `/data.csv`: bộ câu hỏi MHXBP mẫu để import nhanh
+- `/Trac_nghiem_TTHCM_fixed_import.csv`: bộ 184 câu trích từ `Trắc nghiệm TTHCM_fixed.docx`, đã bỏ dấu `*` khỏi đáp án hiển thị
 
 ## CSV format (hỗ trợ)
 
@@ -101,6 +102,8 @@ npm run build
 
 - Frontend đã cấu hình để chạy trên project page `/gen-quest-from-data/`.
 - Thêm workflow `.github/workflows/deploy-pages.yml` để build và deploy tự động từ nhánh `main`.
+- Vào **Settings → Pages**, chọn **Source = GitHub Actions** (không chọn Deploy from branch).
+- Sau khi workflow `Deploy frontend to GitHub Pages` chạy thành công, mở URL dạng `https://<username>.github.io/gen-quest-from-data/`.
 
 ## API chính (backend)
 
