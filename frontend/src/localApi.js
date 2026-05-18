@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'quiz-db-v1';
-const REQUIRED_HEADERS = ['question', 'option_a', 'option_b', 'option_c', 'option_d', 'correct_option'];
+const OPTION_KEYS = ['A', 'B', 'C', 'D', 'E'];
+const REQUIRED_HEADERS = ['question', 'option_a', 'option_b', 'correct_option'];
 
 function createEmptyDb() {
   return {
@@ -92,6 +93,16 @@ function parseCsv(csvText) {
   });
 }
 
+function extractOptions(row) {
+  return OPTION_KEYS.reduce((options, optionKey) => {
+    const value = row[`option_${optionKey.toLowerCase()}`];
+    if (value) {
+      options[optionKey] = value;
+    }
+    return options;
+  }, {});
+}
+
 function parseCsvQuestions(csvText, currentLastQuestionId) {
   const rows = parseCsv(csvText);
 
@@ -100,15 +111,15 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
   let skipped = 0;
 
   for (const row of rows) {
-    const correctOption = String(row.correct_option || '').toUpperCase();
-    const options = {
-      A: row.option_a,
-      B: row.option_b,
-      C: row.option_c,
-      D: row.option_d,
-    };
+    const correctOption = String(row.correct_option || '').replace(/\*/g, '').toUpperCase();
+    const options = extractOptions(row);
 
-    if (!row.question || !['A', 'B', 'C', 'D'].includes(correctOption) || !Object.values(options).every(Boolean)) {
+    if (
+      !row.question
+      || !OPTION_KEYS.includes(correctOption)
+      || !options[correctOption]
+      || Object.keys(options).length < 2
+    ) {
       skipped += 1;
       continue;
     }
@@ -252,17 +263,31 @@ export const localApi = {
         B: payload.option_b ?? current.options.B,
         C: payload.option_c ?? current.options.C,
         D: payload.option_d ?? current.options.D,
+        E: payload.option_e ?? current.options.E,
       },
-      correctOption: String(payload.correct_option || current.correctOption).toUpperCase(),
+      correctOption: String(payload.correct_option || current.correctOption).replace(/\*/g, '').toUpperCase(),
       explanation: payload.explanation ?? current.explanation,
       topic: payload.topic ?? current.topic,
       difficulty: payload.difficulty ?? current.difficulty,
       setName: payload.set_name ?? current.setName,
     };
 
-    if (!['A', 'B', 'C', 'D'].includes(updated.correctOption) || !Object.values(updated.options).every(Boolean)) {
+    const filteredOptions = Object.entries(updated.options).reduce((acc, [key, value]) => {
+      if (value) {
+        acc[key] = value;
+      }
+      return acc;
+    }, {});
+
+    if (
+      !OPTION_KEYS.includes(updated.correctOption)
+      || !filteredOptions[updated.correctOption]
+      || Object.keys(filteredOptions).length < 2
+    ) {
       throw new Error('Question data is invalid');
     }
+
+    updated.options = filteredOptions;
 
     db.questions[index] = updated;
     writeDb(db);
