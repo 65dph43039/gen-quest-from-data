@@ -9,6 +9,7 @@ const EMPTY_DRAFT = {
   option_b: '',
   option_c: '',
   option_d: '',
+  option_e: '',
   correct_option: 'A',
   explanation: '',
   topic: 'General',
@@ -78,6 +79,7 @@ function AdminPage() {
       option_b: question.options.B,
       option_c: question.options.C,
       option_d: question.options.D,
+      option_e: question.options.E || '',
       correct_option: question.correctOption,
       explanation: question.explanation,
       topic: question.topic,
@@ -204,6 +206,7 @@ function AdminPage() {
               <th>B</th>
               <th>C</th>
               <th>D</th>
+              <th>E</th>
               <th>Đáp án</th>
               <th>Chủ đề</th>
               <th>Độ khó</th>
@@ -222,9 +225,10 @@ function AdminPage() {
                   <td><input value={draft.option_b} onChange={(event) => updateDraft(question.id, 'option_b', event.target.value)} /></td>
                   <td><input value={draft.option_c} onChange={(event) => updateDraft(question.id, 'option_c', event.target.value)} /></td>
                   <td><input value={draft.option_d} onChange={(event) => updateDraft(question.id, 'option_d', event.target.value)} /></td>
+                  <td><input value={draft.option_e} onChange={(event) => updateDraft(question.id, 'option_e', event.target.value)} /></td>
                   <td>
                     <select value={draft.correct_option} onChange={(event) => updateDraft(question.id, 'correct_option', event.target.value)}>
-                      {['A', 'B', 'C', 'D'].map((option) => (
+                      {['A', 'B', 'C', 'D', 'E'].map((option) => (
                         <option key={option} value={option}>{option}</option>
                       ))}
                     </select>
@@ -371,7 +375,7 @@ function QuizPage() {
             <div className="meta">Chủ đề: {question.topic} • Độ khó: {question.difficulty}</div>
             <div className="options">
               {question.options.map((option) => (
-                <label key={option.key}>
+                <label key={option.key} className="option-label">
                   <input
                     type="radio"
                     name={`q-${question.id}`}
@@ -414,6 +418,9 @@ function ResultPage() {
   }
 
   const { attempt } = state;
+  const quizQuestionById = new Map(
+    (state.quizQuestions || []).map((question) => [question.id, question]),
+  );
 
   return (
     <section className="page">
@@ -429,6 +436,22 @@ function ResultPage() {
             <p>
               Bạn chọn: <strong>{detail.selectedOption || 'Chưa chọn'}</strong> • Đáp án đúng: <strong>{detail.correctOption}</strong>
             </p>
+            <ul className="result-options">
+              {(quizQuestionById.get(detail.questionId)?.options || detail.options || []).map((option) => {
+                const classes = ['result-option'];
+                if (option.key === detail.correctOption) {
+                  classes.push('correct');
+                } else if (option.key === detail.selectedOption && !detail.isCorrect) {
+                  classes.push('wrong');
+                }
+
+                return (
+                  <li key={option.key} className={classes.join(' ')}>
+                    <strong>{option.key}.</strong> {option.text}
+                  </li>
+                );
+              })}
+            </ul>
             {detail.explanation && <p>Giải thích: {detail.explanation}</p>}
           </li>
         ))}
