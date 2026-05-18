@@ -139,6 +139,21 @@ app.delete('/api/questions/:id', (req, res) => {
   return res.status(204).send();
 });
 
+app.delete('/api/database', (req, res) => {
+  const db = {
+    questions: [],
+    attempts: [],
+    lastQuestionId: 0,
+    lastAttemptId: 0,
+  };
+  writeDb(db);
+  return res.json({
+    ok: true,
+    totalQuestions: db.questions.length,
+    totalAttempts: db.attempts.length,
+  });
+});
+
 app.post('/api/quiz', (req, res) => {
   const { setName, questionCount } = req.body || {};
   const db = readDb();

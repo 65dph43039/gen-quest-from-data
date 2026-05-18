@@ -6,6 +6,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
 
 - **Admin**
   - Import câu hỏi từ CSV chuẩn bằng `papaparse`
+  - Xóa toàn bộ database để import lại từ đầu
   - Quản lý câu hỏi: xem, chỉnh sửa, xóa
   - Lọc câu hỏi theo `topic` và `difficulty`
 - **Làm bài**
@@ -19,7 +20,7 @@ Scaffold website trắc nghiệm (React + Vite + Node.js/Express) theo hướng 
 
 ## Cấu trúc dự án
 
-- `/frontend`: React + Vite UI (Admin, Làm bài, Kết quả)
+- `/frontend`: React + Vite UI (Admin, Làm bài, Kết quả, lưu dữ liệu localStorage để chạy static hosting)
 - `/backend`: Express API + lưu trữ JSON (`backend/data/db.json`)
 - `/question_bank_template.csv`: template CSV đầu vào
 - `/data.csv`: bộ câu hỏi MHXBP mẫu để import nhanh
@@ -71,6 +72,18 @@ npm run dev
 - Frontend: `http://localhost:5173`
 - Backend: `http://localhost:4000`
 
+### Chạy dạng static hosting (GitHub Pages)
+
+- Mặc định frontend chạy **local mode** (lưu DB vào `localStorage`), không cần backend.
+- Build frontend:
+
+```bash
+npm run build
+```
+
+- Upload nội dung `frontend/dist` lên static web hosting (ví dụ GitHub Pages).
+- Nếu muốn frontend gọi backend thật, cấu hình biến môi trường `VITE_API_URL`.
+
 ### 3) Build/Test
 
 ```bash
@@ -85,6 +98,7 @@ npm run build
 - `GET /api/questions` – danh sách câu hỏi
 - `PUT /api/questions/:id` – cập nhật câu hỏi
 - `DELETE /api/questions/:id` – xóa câu hỏi
+- `DELETE /api/database` – xóa toàn bộ database (questions + attempts)
 - `GET /api/sets` – danh sách bộ đề
 - `POST /api/quiz` – tạo đề theo bộ đề + số lượng
 - `POST /api/attempts` – nộp bài/chấm điểm

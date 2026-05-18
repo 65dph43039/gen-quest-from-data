@@ -1,6 +1,13 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
+import { localApi } from './localApi';
+
+const API_BASE_URL = import.meta.env.VITE_API_URL;
+const isRemoteApiEnabled = Boolean(API_BASE_URL);
 
 async function request(path, options = {}) {
+  if (!isRemoteApiEnabled) {
+    throw new Error('Không có backend API, vui lòng dùng local mode');
+  }
+
   const response = await fetch(`${API_BASE_URL}${path}`, {
     headers: {
       'Content-Type': 'application/json',
@@ -21,10 +28,10 @@ async function request(path, options = {}) {
   return response.json();
 }
 
-export const api = {
+const remoteApi = {
   getQuestions: (filters = {}) => {
-    const query = new URLSearchParams(filters);
-    return request(`/questions${query.toString() ? `?${query.toString()}` : ''}`);
+    const query = new URLSearchParams(filters)
+    return request(`/questions${query.toString() ? `?${query.toString()}` : ''}`)
   },
   importCsv: (csvText) =>
     request('/questions/import-csv', {
@@ -40,6 +47,10 @@ export const api = {
     request(`/questions/${id}`, {
       method: 'DELETE',
     }),
+  resetDatabase: () =>
+    request('/database', {
+      method: 'DELETE',
+    }),
   getSets: () => request('/sets'),
   createQuiz: (payload) =>
     request('/quiz', {
@@ -52,7 +63,9 @@ export const api = {
       body: JSON.stringify(payload),
     }),
   getAttempts: (userId) => {
-    const query = userId ? `?${new URLSearchParams({ userId }).toString()}` : '';
-    return request(`/attempts${query}`);
+    const query = userId ? `?${new URLSearchParams({ userId }).toString()}` : ''
+    return request(`/attempts${query}`)
   },
-};
+}
+
+export const api = isRemoteApiEnabled ? remoteApi : localApi
