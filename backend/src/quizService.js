@@ -46,7 +46,7 @@ function parseCsvQuestions(csvText, currentLastQuestionId) {
   let skipped = 0;
 
   for (const row of normalizedRows) {
-    const correctOption = String(row.correct_option || '').replace('*', '').toUpperCase();
+    const correctOption = String(row.correct_option || '').replace(/\*/g, '').toUpperCase();
     const options = extractOptions(row);
 
     if (

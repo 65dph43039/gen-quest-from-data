@@ -107,7 +107,7 @@ app.put('/api/questions/:id', (req, res) => {
       }
       return options;
     }, {}),
-    correctOption: String(payload.correct_option || current.correctOption).replace('*', '').toUpperCase(),
+    correctOption: String(payload.correct_option || current.correctOption).replace(/\*/g, '').toUpperCase(),
     explanation: payload.explanation ?? current.explanation,
     topic: payload.topic ?? current.topic,
     difficulty: payload.difficulty ?? current.difficulty,
