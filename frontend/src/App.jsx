@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { BrowserRouter, Link, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { HashRouter, Link, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { api } from './api';
 import './App.css';
 
@@ -143,6 +143,22 @@ function AdminPage() {
     }
   }
 
+  async function handleResetDatabase() {
+    if (!window.confirm('Xóa toàn bộ database hiện tại? Hành động này không thể hoàn tác.')) {
+      return;
+    }
+
+    try {
+      await api.resetDatabase();
+      setDrafts({});
+      setSelectedFile(null);
+      setStatus('Đã xóa toàn bộ database. Bạn có thể import CSV mới.');
+      await loadQuestions();
+    } catch (error) {
+      setStatus(error.message);
+    }
+  }
+
   return (
     <section className="page">
       <h2>Trang quản trị</h2>
@@ -151,6 +167,7 @@ function AdminPage() {
       <div className="panel upload-panel">
         <input type="file" accept=".csv,text/csv" onChange={(event) => setSelectedFile(event.target.files?.[0] || null)} />
         <button type="button" onClick={handleImport}>Import CSV</button>
+        <button type="button" className="danger" onClick={handleResetDatabase}>Xóa database</button>
       </div>
 
       <div className="panel filters">
@@ -435,7 +452,7 @@ function Navigation() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="layout">
         <Navigation />
         <Routes>
@@ -445,7 +462,7 @@ function App() {
           <Route path="/results" element={<ResultPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
